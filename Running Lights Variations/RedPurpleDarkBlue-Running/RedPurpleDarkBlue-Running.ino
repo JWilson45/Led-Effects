@@ -72,6 +72,7 @@ void RunningLights() {
 
 void showStrip() {
    // FastLED
+   FastLED.setBrightness(40);
    FastLED.show();
 }
 
